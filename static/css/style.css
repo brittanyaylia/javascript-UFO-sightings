@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: Ubuntu, sans-serif;
+  font-family: Rockwell, serif;
 }
 
 html,
@@ -47,9 +47,9 @@ body {
 .nav-ufo {
   position: absolute;
   bottom: 5px;
-  left: 150px;
+  left: 165px;
   width: 35px;
-  color: white;
+  color: lime;
 }
 
 /* Adding styles to the side and filter form */
