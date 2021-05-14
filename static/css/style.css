@@ -49,10 +49,10 @@ body {
   bottom: 5px;
   left: 150px;
   width: 35px;
-  color: lime;
+  color: white;
 }
 
-/* Adding styles to the aside and filter form */
+/* Adding styles to the side and filter form */
 .ufo-form {
   margin-top: 50px;
 }
@@ -97,6 +97,7 @@ select {
   height: 550px;
   padding: 20px;
   margin: 0;
+  color: lime;
   background: black;
   background-image: url("../images/alien.jpg");
   background-attachment: fixed;
