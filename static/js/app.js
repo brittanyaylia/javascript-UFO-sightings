@@ -21,3 +21,13 @@ function buildTable(data){
         });
     })
 }
+
+//button clicks
+function handleClick(){
+    //prevent page refresh 
+    d3.event.preventDefault();
+    //get value of selected html input
+    let date = d3.select("#datetime").property("value");
+    let filterData = tableData;
+    
+}
