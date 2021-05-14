@@ -29,5 +29,10 @@ function handleClick(){
     //get value of selected html input
     let date = d3.select("#datetime").property("value");
     let filterData = tableData;
-    
+
+    //filter data using entered date/time
+    if(date){
+        //apply filter & keep rows that match date/time value 
+        filterData = filterData.filter((row) => row.datetime === date);
+    }
 }
