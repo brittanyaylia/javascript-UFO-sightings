@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: Rockwell, serif;
+  font-family: Andalé Mono, monospace;
 }
 
 html,
@@ -24,7 +24,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  min-height: 100px;
+  min-height: 30px;
   background: #4e5d6c;
 }
 
@@ -35,7 +35,8 @@ body {
   bottom: 0;
   left: 0;
   padding: 5px;
-  background: #1b3146;
+  background:  #4e5d6c;
+  color: lime;
 }
 
 .navbar {
@@ -47,7 +48,7 @@ body {
 .nav-ufo {
   position: absolute;
   bottom: 5px;
-  left: 165px;
+  left: 175px;
   width: 35px;
   color: lime;
 }
