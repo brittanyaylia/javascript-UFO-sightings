@@ -28,11 +28,20 @@ function handleClick(){
     d3.event.preventDefault();
     //get value of selected html input
     let date = d3.select("#datetime").property("value");
-    let filterData = tableData;
+    let filteredData = tableData;
 
     //filter data using entered date/time
     if(date){
         //apply filter & keep rows that match date/time value 
-        filterData = filterData.filter((row) => row.datetime === date);
+        filteredData = filteredData.filter((row) => row.datetime === date);
     }
+    //build table with filtered data
+    buildTable(filteredData);
 }
+//"on" function for button click 
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+//data.js table 
+buildTable(tableData);
+
+
